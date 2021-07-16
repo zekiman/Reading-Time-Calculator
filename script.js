@@ -32,6 +32,8 @@ form.addEventListener('submit',function(event){
     function calculateMin(){
         if(hour===0){
             return totalMin
+        }else if(hour===1){
+            return totalMin-60
         }else {
             return totalMin%hour
         }    
