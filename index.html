@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Estimated to reading time</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <h1>Estimated Reading Time</h1>
+        <form action="#" class="form">
+            <label for="bookName">Name of book: </label><br>
+            <input class="bookName" type="text" name="bookName" id="bookName" value="Enter text" ><br><br>
+
+            <label for="wordPerPage">Average number of words per page: </label><br>
+            <input class="wordPerPage" type="number" name="wordPerPage" id="wordPerPage" placeholder="Enter number"><br><br>
+
+            <label for="numberOfPages">Total pages: </label><br>
+            <input class="numberOfPages" type="number" name="wordPerPage" id="numberOfPages" placeholder="Enter number"><br><br>
+            
+            <label for="wordRead">Average number of words read per minute: </label><br>
+            <input class="wordRead" type="number" name="wordRead" id="wordRead" placeholder="Enter number"> <br><br><br>
+
+            <input class="btn" type="submit" value="Submit">
+        </form>
+        
+        <h2 style="display: inline-block;">Result:</h2><p style="display: inline-block; margin-left: 15px;" class="result"></span>
+
+        <script src="script.js" async defer></script>
+    </body>
+</html>
